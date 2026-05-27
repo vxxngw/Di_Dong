@@ -15,94 +15,94 @@ const banners = [
 ];
 
 const journeys = [
-  { 
-    id: "1", 
-    image: "assets/DN-BN-HA.jpg", 
-    title: "Da Nang - Ba Na - Hoi An", 
-    date: "Jan 30, 2020", 
-    days: "3 days", 
-    price: "$400.00" 
+  {
+    id: "1",
+    image: "assets/DN-BN-HA.jpg",
+    title: "Da Nang - Ba Na - Hoi An",
+    date: "Jan 30, 2020",
+    days: "3 days",
+    price: "$400.00"
   },
-  { 
-    id: "2", 
-    image: "assets/thailan.png", 
-    title: "Thailand", 
-    date: "Jan 30, 2020", 
-    days: "3 days", 
-    price: "$600.00" 
+  {
+    id: "2",
+    image: "assets/thailan.png",
+    title: "Thailand",
+    date: "Jan 30, 2020",
+    days: "3 days",
+    price: "$600.00"
   },
-  { 
-    id: "3", 
-    image: "assets/HanoiHaLongBay.png", 
-    title: "Ha Long Bay", 
-    date: "Jan 30, 2020", 
-    days: "3 days", 
-    price: "$500.00" 
+  {
+    id: "3",
+    image: "assets/HanoiHaLongBay.png",
+    title: "Ha Long Bay",
+    date: "Jan 30, 2020",
+    days: "3 days",
+    price: "$500.00"
   },
 ];
 
 const guides = [
-  { id: "1", image: "assets/anna.png", name: "Emmy", role: "Hanoi, Vietnam", reviews: 127 },
-  { id: "2", image: "assets/John.png", name: "Khai Ho", role: "Ho Chi Minh, Vietnam", reviews: 85 },
-  { id: "3", image: "assets/lina.png", name: "Linh Hana", role: "Danang, Vietnam", reviews: 156 },
-  { id: "4", image: "assets/TuanTran.png", name: "Tuan Tran", role: "Danang, Vietnam", reviews: 204 },
+  { id: "1", image: "assets/anna.png", name: "Anna", role: "Hanoi, Vietnam", reviews: 127 },
+  { id: "2", image: "assets/bennguyen.jpg", name: "Ben Nguyen", role: "Ho Chi Minh, Vietnam", reviews: 85 },
+  { id: "3", image: "assets/lina.jpg", name: "Lina ", role: "Phu Yen, Vietnam", reviews: 156 },
+  { id: "4", image: "assets/TuanTran.png", name: "Tuan Nguyen", role: "DaNang, Vietnam", reviews: 204 },
 ];
 
 const experiences = [
-  { 
-    id: "1", 
-    image: "assets/hoian.png", 
-    avatar: "assets/TuanTran.png", 
-    name: "Tuan Tran", 
-    title: "2 Hour Bicycle Tour exploring Hoian", 
-    location: "Hoian, Vietnam" 
+  {
+    id: "1",
+    image: "assets/hoian.png",
+    avatar: "assets/bennguyen.jpg",
+    name: "Ben Nguyen",
+    title: "2 Hour Bicycle Tour exploring Da Nang",
+    location: "Da Nang, Vietnam"
   },
-  { 
-    id: "2", 
-    image: "assets/bana.png", 
-    avatar: "assets/lina.png", 
-    name: "Linh Hana", 
-    title: "1 day at Bana Hill", 
-    location: "Bana, Vietnam" 
+  {
+    id: "2",
+    image: "assets/bana.png",
+    avatar: "assets/lina.png",
+    name: "Lina ",
+    title: "2 day at Bana Hill",
+    location: "Da Nang, Vietnam"
   }
 ];
 
 const tours = [
-  { 
-    id: "1", 
-    image: "assets/img1.png", 
-    title: "Da Nang - Ba Na - Hoi An", 
-    date: "Jan 30, 2020", 
-    days: "3 days", 
-    price: "$400.00", 
-    isLiked: false, 
-    isSaved: false 
+  {
+    id: "1",
+    image: "assets/radisson.jpg",
+    title: "Radisson BLU Da Nang Resort ",
+    date: "Feb 22, 2026",
+    days: "3 days",
+    price: "$150/night",
+    isLiked: false,
+    isSaved: false
   },
-  { 
-    id: "2", 
-    image: "assets/MelbourneSydney.png", 
-    title: "Melbourne - Sydney", 
-    date: "Jan 30, 2020", 
-    days: "3 days", 
-    price: "$600.00", 
-    isLiked: true, 
-    isSaved: false 
+  {
+    id: "2",
+    image: "assets/rosamia.jpg",
+    title: "Rosamia Resort Da Nang",
+    date: "Mar 20, 2026",
+    days: "2 days",
+    price: "$400.00",
+    isLiked: true,
+    isSaved: false
   },
 ];
 
 const trips = {
   "Current Trips": [
-    { id: "1", title: "Dragon Bridge Trip", location: "Da Nang, Vietnam", date: "Jan 30, 2020", time: "13:00 - 15:00", image: "assets/dragonbridge.png", avatar: "assets/anna.png" },
-    { id: "2", title: "Ho Guom Trip", location: "Hanoi, Vietnam", date: "Feb 2, 2020", time: "8:00 - 10:00", image: "assets/HanoiHaLongBay.png", avatar: "assets/lina.png" },
+    { id: "1", title: "Dragon Bridge Trip", location: "Da Nang, Vietnam", date: "Apr 15, 2026", time: "18:00 - 22:00", image: "assets/dragonbridge.png", avatar: "assets/anna.png" },
+    { id: "2", title: "Ho Guom Trip", location: "Hanoi, Vietnam", date: "May 22, 2026", time: "8:00 - 10:00", image: "assets/HanoiHaLongBay.png", avatar: "assets/lina.jpg" },
   ],
   "Next Trips": [
     { id: "3", title: "Ba Na Hill Discovery", location: "Da Nang, Vietnam", date: "May 10, 2026", time: "08:00 - 17:00", image: "assets/bana.png", avatar: "assets/TuanTran.png" },
   ],
   "Past Trips": [
-     { id: "4", title: "Old Town Walk", location: "Hoi An, Vietnam", date: "Dec 15, 2019", time: "10:00 - 12:00", image: "assets/hoian.png", avatar: "assets/lina.png" },
+    { id: "4", title: "Old Town Walk", location: "Hoi An, Vietnam", date: "Feb 15, 2026", time: "10:00 - 12:00", image: "assets/hoian.png", avatar: "assets/lina.jpg" },
   ],
   "Wish List": [
-     { id: "5", title: "Sydney Opera House", location: "Sydney, Australia", date: "TBD", time: "Anytime", image: "assets/MelbourneSydney.png", avatar: "assets/John.png" },
+    { id: "5", title: "Sydney Opera House", location: "Sydney, Australia", date: "TBD", time: "Anytime", image: "assets/MelbourneSydney.png", avatar: "assets/John.png" },
   ]
 };
 
@@ -147,13 +147,13 @@ app.post('/api/trips', (req, res) => {
     image: "assets/hoian.png", // Giả lập hình ảnh
     avatar: "assets/anna.png"  // Giả lập avatar
   };
-  
+
   const tripCategory = status || "Current Trips";
   if (!trips[tripCategory]) {
     trips[tripCategory] = [];
   }
   trips[tripCategory].push(newTrip);
-  
+
   res.status(201).json({ message: 'Trip added successfully', trip: newTrip });
 });
 
